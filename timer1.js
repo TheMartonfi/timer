@@ -22,7 +22,7 @@ const validateUserInputs = (userInput) => {
 
 const setAlarm = (userInput) => {
   
-  if (userInput.length <= 0) {
+  if (!userInput.length) {
     return null;
   } else {
     for (const input of userInput) {
