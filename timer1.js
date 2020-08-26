@@ -12,7 +12,7 @@ const validateUserInputs = (userInput) => {
 
     const userInputToNum = Number(input)
 
-    if (!isNaN(userInputToNum) && Math.sign(userInputToNum) === 1 && Number.isInteger(userInputToNum) && userInputToNum > 0) {
+    if (!isNaN(userInputToNum) && Math.sign(userInputToNum) === 1 && userInputToNum > 0) {
       validInputs.push(userInputToNum);
     }
   }
